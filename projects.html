@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"
+		content = "width=device-width, initial-scale=1.0">
+		<title>My portfolio</title>
+		<link rel="stylesheet" href="about.css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Tauri&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="navbar__container">
+				<a href="index.html" id="navbar__logo">
+					<i class="fa-solid fa-code"></i> MARY</a>
+				<div class="navbar__toggle" id="mobile-menu">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+				<ul class="navbar__menu">
+					<li class="navbar__item">
+						<a href="index.html" class="navbar__links">HOME</a>
+					</li>
+					<li class="navbar__item">
+						<a href="projects.html" class="navbar__links">PROJECTS</a>
+					</li>
+					<li class="navbar__item">
+						<a href="about.html" class="navbar__links">ABOUT ME</a>
+					</li>			
+				</ul>
+			</div>
+		</nav>
+		
+		<!--projects section-->
+		<div class="projects">
+			<h2>Projects I did in university</h2>
+			<div class="projects__container">
+				<div class="project__card">
+					<div class="card__image pr-1"></div>
+					<h2>MyShell</h2>
+					<p>Team project. Make your own Linux Shell in C.</p>
+					<br>
+					<a class="button" href="https://github.com/maryballa/MyShell" target="_blank">See more</a>
+				</div>
+				<div class="project__card">
+					<div class="card__image pr-2"></div>
+					<h2>Hotel Booking</h2>
+					<p>Team project. Hotel Booking program in Java.</p>
+					<br>
+					<a class="button" href="https://github.com/maryballa/Hotel-Management-System" target="_blank">See more</a>
+				</div>
+				<div class="project__card">
+					<div class="card__image pr-3"></div>
+					<h2>Alerting device for hearing impaired people</h2>
+					<p>Arduino Uno.</p>
+					<br>
+					<a class="button" href="https://www.tinkercad.com/things/6GG8QnTOj83-doorbell-alert-for-deaf-people" target="_blank">See more</a>
+				</div>
+			</div>
+		</div>
+		
+		<!--footer section-->
+		<div class="footer__container">
+			<div class="social__media">
+				<a href="https://github.com/maryballa" class="social__icon--links" target="_blank">
+					<i class="fa-brands fa-github"></i></i>
+				</a>
+			</div>
+		</div>
+		<script src="app.js"></script>
+		<script src="https://kit.fontawesome.com/e2007bf70d.js" crossorigin="anonymous"></script>
+	</body>
+</html>
