@@ -25,6 +25,7 @@
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--accent);
+  margin-bottom: 1rem;
 }
 
 .section-header h1 {
@@ -42,9 +43,10 @@
   max-width: 480px;
   margin-top: 0.25rem;
 }
-
+ 
 .carousel-section {
   width: 100%;
+  margin-top: 2rem;
 }
 
 @media (max-width: 600px) {

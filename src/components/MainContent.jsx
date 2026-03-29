@@ -7,7 +7,7 @@ function MainContent() {
     <div className='main-wrap'>
       <div className='main-content'>
         <div>
-          <div className='section-label' style={{ fontFamily: 'var(--font-mono)', fontSize: '0.65rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--accent)', marginBottom: '1rem' }}>
+          <div className='section-label'>
             About
           </div>
           <PersonCard />
@@ -19,7 +19,7 @@ function MainContent() {
             <h1>Projects</h1>
             <p>A collection of academic and personal projects — all available on my GitHub.</p>
           </div>
-          <div className='carousel-section' style={{ marginTop: '2rem' }}>
+          <div className='carousel-section'>
             <Carousel />
           </div>
         </div>
