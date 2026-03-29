@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/maryballa.github.io/static/css/main.daa0c9c3.css",
+    "main.js": "/maryballa.github.io/static/js/main.a775f901.js",
+    "static/js/488.727ec5bd.chunk.js": "/maryballa.github.io/static/js/488.727ec5bd.chunk.js",
+    "static/media/header.jpg": "/maryballa.github.io/static/media/header.5cf795cce68c907994c0.jpg",
+    "static/media/arduino.png": "/maryballa.github.io/static/media/arduino.35ab8320a60683cd35f1.png",
+    "static/media/linux-bash.png": "/maryballa.github.io/static/media/linux-bash.50623ca707e504fea3b4.png",
+    "static/media/sudoku.png": "/maryballa.github.io/static/media/sudoku.77bbcb805b59771c9bea.png",
+    "static/media/hotel.png": "/maryballa.github.io/static/media/hotel.ea795f87c8dbe274214b.png",
+    "static/media/mylibrary.png": "/maryballa.github.io/static/media/mylibrary.aa37721333a6e048f11a.png",
+    "static/media/olivetti.png": "/maryballa.github.io/static/media/olivetti.05ef6c79eb76c47c7aa7.png",
+    "static/media/slick.svg": "/maryballa.github.io/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/maryballa.github.io/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/maryballa.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/maryballa.github.io/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/maryballa.github.io/index.html",
+    "main.daa0c9c3.css.map": "/maryballa.github.io/static/css/main.daa0c9c3.css.map",
+    "main.a775f901.js.map": "/maryballa.github.io/static/js/main.a775f901.js.map",
+    "488.727ec5bd.chunk.js.map": "/maryballa.github.io/static/js/488.727ec5bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.daa0c9c3.css",
+    "static/js/main.a775f901.js"
+  ]
+}
