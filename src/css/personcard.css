@@ -1,0 +1,71 @@
+.person-card {
+  background-color: var(--surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: 2.5rem;
+  border: 1px solid var(--border);
+  transition: box-shadow var(--transition), transform var(--transition);
+}
+
+.person-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.card-title {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: var(--ink);
+  margin-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.card-bio {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.bio-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.9rem;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  line-height: 1.6;
+}
+
+.bio-icon {
+  color: var(--accent);
+  font-size: 0.95rem;
+  margin-top: 0.2rem;
+  flex-shrink: 0;
+  width: 1.1rem;
+  text-align: center;
+}
+
+.bio-row strong {
+  color: var(--ink);
+  font-weight: 500;
+  margin-right: 0.3rem;
+}
+
+.unilink {
+  color: var(--accent);
+  border-bottom: 1px solid transparent;
+  transition: border-color var(--transition), opacity var(--transition);
+  font-weight: 500;
+}
+
+.unilink:hover {
+  border-color: var(--accent);
+  opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .person-card {
+    padding: 1.75rem 1.5rem;
+  }
+}
